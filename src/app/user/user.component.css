@@ -2,6 +2,9 @@ div {
     border-radius: 6px;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
 }
 
 button {
@@ -10,13 +13,14 @@ button {
     gap: 0.5rem;
     padding: 0.35rem 0.5rem;
     background-color: #433352;
-    color: #c3b3d1;
+    color: #c3b3d1;  
     border: none;
     font: inherit;
     cursor: pointer;
     width: 100%;
     min-width: 10rem;
     text-align:left;
+    box-sizing: border-box;
 }
 
 button:hover,
@@ -28,7 +32,8 @@ button:active,
 
 img {
     width: 2rem;
-    object-fit: contain;
+    height: 2rem;
+    object-fit:contain ;
     border-radius: 50%;
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
 }
@@ -38,4 +43,5 @@ span {
     padding: 0;
     font-size: 0.8rem;
     font-weight: normal;
+    box-sizing: border-box;
 }

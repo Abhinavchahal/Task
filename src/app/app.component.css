@@ -9,11 +9,11 @@ img {
 
 h1 {
     margin: 1rem auto;
-    background: -webkit-linear-gradient(red, blue); /* Gradient from red to blue */
-    /* -webkit-background-clip: text;
+    background: -webkit-linear-gradient(red, blue);
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 3rem;
-} */ 
+}  */
 
 main {
     width: 90%;
@@ -30,5 +30,8 @@ main {
     padding: 0;
     display: flex;
     gap: 0.5rem;
-    overflow: scroll;
+    flex-direction: column ;
+    width: 15rem;
+    margin: 0;
+    /* overflow: scroll; */
 }
